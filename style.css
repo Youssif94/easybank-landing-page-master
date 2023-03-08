@@ -29,6 +29,9 @@ nav > ul > li {
   justify-content: flex-start;
   align-items: baseline;
 }
+.section-1-content > p {
+  width: 50%;
+}
 
 .section-1-img {
   position: relative;
@@ -59,4 +62,77 @@ nav > ul > li {
 .section-2-content {
   width: 80%;
   margin: 0 auto;
+  padding-top: 100px;
+}
+
+.section-2-content > p {
+  width: 50%;
+  color: rgb(85, 84, 84);
+  padding-bottom: 50px;
+}
+
+.section-2-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+
+.section-3-articles {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.section-3-article {
+  width: 300px;
+}
+.section-3-article > h2 {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.section-3-article > p {
+  margin: 30px auto;
+  width: 80%;
+}
+
+.section-3-article > img {
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+footer {
+  background-color: hsl(233, 26%, 24%);
+  margin: 0px -10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.img-footer {
+  color: white;
+}
+
+.footer-1 > ul {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  padding-left: 0;
+}
+
+.footer-2 > ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.footer-2 > ul > li {
+  width: 200px;
+  color: white;
 }
